@@ -3,7 +3,7 @@
   "displayName": "InlayHints",
   "description": "Inlay Hints",
   "version": "0.0.1",
-  "enableProposedApi": true,
+  "preview": true,
   "engines": {
     "vscode": "^1.60.0"
   },
