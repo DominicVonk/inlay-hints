@@ -2,13 +2,13 @@
   "name": "inlay-hints",
   "displayName": "InlayHints",
   "description": "Inlay Hints",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "preview": true,
   "enabledApiProposals": [
     "inlayHints"
   ],
   "engines": {
-    "vscode": "^1.63.0-insider"
+    "vscode": "^1.63.0"
   },
   "capabilities": {
     "untrustedWorkspaces": {
@@ -38,7 +38,7 @@
     "pretest": "npm run test-compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "node ./out/test/runTest.js",
-    "publish": "vsce publish --pre-release --noVerify"
+    "publish": "vsce publish --noVerify"
   },
   "devDependencies": {
     "@types/glob": "^7.2.0",
