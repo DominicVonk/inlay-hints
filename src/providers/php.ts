@@ -64,7 +64,7 @@ export default async (isEnabled: Function, parser: typeof Parser) => {
 }
 
 
-async function getLabelsOfNode(model: vscode.TextDocument, node: any) {
+async function getLabelsOfNode (model: vscode.TextDocument, node: any) {
     let signature: any = await vscode.commands.executeCommand(
         "vscode.executeSignatureHelpProvider",
         model.uri,
