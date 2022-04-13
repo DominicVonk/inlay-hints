@@ -2,7 +2,7 @@
   "name": "inlay-hints",
   "displayName": "Inlay Hints",
   "description": "Adds Additional Inlay Hints",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "icon": "icon.png",
   "preview": false,
   "engines": {
