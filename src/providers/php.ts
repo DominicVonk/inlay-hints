@@ -46,8 +46,9 @@ export default async (isEnabled: Function, parser: typeof Parser) => {
                             let arg = node.arguments[i];
                             if (labels.length > i) {
                                 output.push(new vscode.InlayHint(
-                                    labels[i],
                                     new vscode.Position(arg.startPosition.row, arg.startPosition.column),
+                                    labels[i],
+
                                     vscode.InlayHintKind.Parameter,
                                 ))
                             }
@@ -74,7 +75,9 @@ async function getLabelsOfNode (model: vscode.TextDocument, node: any) {
     let labels = [];
     if (signature?.signatures?.length) {
 
+
         const _signature: any = signature.signatures[signature.activeSignature];
+
         for (const param of _signature.parameters) {
             let label = _signature.label.substring(param.label[0], param.label[1]);
             label = label.split('=')[0];
