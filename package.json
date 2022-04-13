@@ -1,8 +1,9 @@
 {
   "name": "inlay-hints",
-  "displayName": "InlayHints",
-  "description": "Inlay Hints",
+  "displayName": "Inlay Hints",
+  "description": "Adds Additional Inlay Hints",
   "version": "0.0.5",
+  "icon": "icon.png",
   "preview": false,
   "engines": {
     "vscode": "^1.66.0"
