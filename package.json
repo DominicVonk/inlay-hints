@@ -2,7 +2,7 @@
   "name": "inlay-hints",
   "displayName": "InlayHints",
   "description": "Inlay Hints",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "preview": false,
   "engines": {
     "vscode": "^1.66.0"
